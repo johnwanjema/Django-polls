@@ -4,6 +4,8 @@ from .models import Question
 from django.template import loader
 from django.http import Http404
 from .models import Choice, Question
+from django.db.models import F
+from django.urls import reverse
 
 # Create your views here.
 def index(request):

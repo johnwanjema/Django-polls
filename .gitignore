@@ -157,3 +157,5 @@ dmypy.json
 cython_debug/
 
 # End of example
+
+.DS_STORE
